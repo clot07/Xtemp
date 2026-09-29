@@ -1,0 +1,15 @@
+name: InstaBatch
+options:
+  bundleIdPrefix: com.clot07
+  deploymentTarget:
+    iOS: "16.0"
+targets:
+  InstaBatch:
+    type: application
+    platform: iOS
+    sources: [InstaBatch]
+    settings:
+      PRODUCT_BUNDLE_IDENTIFIER: com.clot07.instabatch
+      INFOPLIST_KEY_CFBundleDisplayName: InstaBatch
+      INFOPLIST_KEY_LSApplicationCategoryType: public.app-category.photo-video
+      SWIFT_VERSION: 5.0
